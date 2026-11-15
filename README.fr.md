@@ -1,6 +1,6 @@
 # GymFlow : analyse en temps réel d'un flux de séances
 
-[English](README.md) · **App en ligne :** _lien ajouté après le déploiement_
+[English](README.md) · **App en ligne :** [gymflow sur Streamlit](https://gymflow-kvrwxdgnhdhw3krhdvhqxg.streamlit.app/)
 
 GymFlow traite un flux de séries de musculation au moment où elles arrivent. Trois athlètes simulés envoient leurs séries en parallèle, un pipeline FIFO analyse chacune d'elles selon des règles d'entraînement, et chaque série est enregistrée dans un journal d'événements rejouable.
 

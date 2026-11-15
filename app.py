@@ -126,7 +126,9 @@ c2.metric(t["m_sets"], stats["persisted"])
 c3.metric(t["m_lost"], stats["produced"] - stats["persisted"])
 c4.metric(t["m_alerts"], stats["alerts"])
 c5.metric(t["m_latency"], f"{stats['latency_median_ms']:.1f} ms")
-st.caption(t["backend"].format(live=result["live_backend"], log=result["log_backend"]) + " " + t["latency_note"])
+backend_name = lambda name: t["backends"].get(name, name)  # noqa: E731
+st.caption(t["backend"].format(live=backend_name(result["live_backend"]), log=backend_name(result["log_backend"]))
+           + " " + t["latency_note"])
 
 tab_live, tab_alerts, tab_arch = st.tabs([t["tab_live"], t["tab_alerts"], t["tab_arch"]])
 

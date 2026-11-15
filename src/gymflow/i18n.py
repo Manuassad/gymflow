@@ -41,6 +41,7 @@ UI = {
         "replay_title": "Event log replay", "replay_text": "Each set is an event. These totals are rebuilt only by replaying the log.",
         "volume": "Volume (kg)", "sets": "Sets", "last_hr": "Last heart rate (bpm)",
         "levels": {"RED": "Red", "ORANGE": "Orange", "GREEN": "Green", "BLUE": "Blue"},
+        "backends": {"in-memory": "in-memory"},
     },
     "fr": {
         "tagline": "Analyse en temps réel d'un flux de séances simulé : trois athlètes fictifs, un pipeline FIFO, un journal d'événements rejouable.",
@@ -63,6 +64,7 @@ UI = {
         "replay_title": "Relecture du journal", "replay_text": "Chaque série est un événement. Ces totaux sont recalculés uniquement en rejouant le journal.",
         "volume": "Volume (kg)", "sets": "Séries", "last_hr": "Dernière fréquence cardiaque (bpm)",
         "levels": {"RED": "Rouge", "ORANGE": "Orange", "GREEN": "Vert", "BLUE": "Bleu"},
+        "backends": {"in-memory": "en mémoire"},
     },
 }
 

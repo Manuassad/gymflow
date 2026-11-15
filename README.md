@@ -1,6 +1,6 @@
 # GymFlow: real-time workout stream analysis
 
-[Français](README.fr.md) · **Live app:** _link added after deployment_
+[Français](README.fr.md) · **Live app:** [gymflow on Streamlit](https://gymflow-kvrwxdgnhdhw3krhdvhqxg.streamlit.app/)
 
 GymFlow processes a stream of workout sets as they happen. Three simulated athletes send their sets concurrently, a FIFO pipeline analyses each one against training rules, and every set is stored in a replayable event log.
 
